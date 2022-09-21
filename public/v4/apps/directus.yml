@@ -47,7 +47,7 @@ services:
 caproverOneClickApp:
     variables:
         - description: Tag of Directus image on https://hub.docker.com/r/directus/directus/tags
-          defaultValue: v9.0.0-rc.64
+          defaultValue: 9
           id: $$cap_directus_tag
           label: Directus image tag
           validRegex: /.{1,}/
